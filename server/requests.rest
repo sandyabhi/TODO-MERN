@@ -1,0 +1,16 @@
+GET http://localhost:8000/todos
+
+###
+
+POST http://localhost:8000/todo/new
+Content-Type: application/json
+
+{
+    "text":"Book the ticket"
+}
+
+###
+DELETE http://localhost:8000/todo/delete/612c9a7bde9035c5e1453450
+
+###
+PUT http://localhost:8000/todo/complete/612c9af9de9035c5e1453453
